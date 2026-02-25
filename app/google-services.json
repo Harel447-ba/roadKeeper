@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "161300069706",
+    "project_id": "road-keeper-486911",
+    "storage_bucket": "road-keeper-486911.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161300069706:android:5d75b6c4418b4dc90395b3",
+        "android_client_info": {
+          "package_name": "com.example.roadkeeper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC3JQ1TZJhisdYtdAxgFI2IXbmHR1ZNMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

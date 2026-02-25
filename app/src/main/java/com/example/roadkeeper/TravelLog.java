@@ -10,6 +10,8 @@ public class TravelLog {
 
     public TravelLog() {}
 
+
+
     public TravelLog(String id, double latitude, double longitude, String imageUrl, String description, long timestamp) {
         this.id = id;
         this.latitude = latitude;
@@ -25,4 +27,28 @@ public class TravelLog {
     public String getImageUrl() { return imageUrl; }
     public String getDescription() { return description; }
     public long getTimestamp() { return timestamp; }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setLatitude(double latitude) {
+        this.latitude = latitude;
+    }
+
+    public void setLongitude(double longitude) {
+        this.longitude = longitude;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setTimestamp(long timestamp) {
+        this.timestamp = timestamp;
+    }
 }
